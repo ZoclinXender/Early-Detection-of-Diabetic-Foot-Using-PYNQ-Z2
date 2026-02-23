@@ -7,7 +7,7 @@ from torch.utils.data import Dataset, DataLoader
 import matplotlib.pyplot as plt
 
 # ============================================================
-# 1️⃣ LOAD 31 BAND IMAGES → BUILD HSI CUBE
+# 1️⃣ LOAD 31 BAND IMAGES → BUILD HSI CUBE band
 # ============================================================
 def load_hsi_cube(folder, prefix):
     bands = []
@@ -163,3 +163,4 @@ plt.title("Spectral Signature")
 plt.xlabel("Band")
 plt.ylabel("Reflectance")
 plt.show()
+
